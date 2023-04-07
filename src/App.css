@@ -1,38 +1,84 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;600&display=swap');
 .App {
-  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  position: absolute;
+  width: 100%;
+  height: 64px;
+  background: #EEF2FF;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  position: absolute;
+  width: 121px;
+  height: 36px;
+  margin-left: 32px;
+  margin-top: 14px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: justify;
+  color: #495057;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title{
+  position: absolute;
+  width: 291px;
+  height: 30px;
+  margin-left: 565px;
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: #495057;
+}
+.list{
+  width: 129px;
+  padding-left: 32px;
+  padding-top: 93.5px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify; 
+  color: #495057;
+}
+.body{
+  position: absolute;
+  width: 100%;
+  height: 450px;
+}
+.headerbody{
+  width: 100%;
+  margin-top: 64px;
+  padding-top: 10px;
+  height: 64px;
+}
+.headerbody .row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.footer{
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  margin-top: 684px;
+  background: #E9ECEF;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copy-right{
+  width: 212px;
+  height: 18px;
+  margin-left: 565px;
+  padding-top: 25px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #495057;
 }
