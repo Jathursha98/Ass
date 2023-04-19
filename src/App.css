@@ -1,21 +1,21 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;600&display=swap');
-.App {
+/* .App {
   position: relative;
   width: 100%;
   height: 100%;
   background: #FFFFFF;
   font-family: 'Poppins';
   font-style: normal;
-}
-.header{
+} */
+/* .header{
   position: absolute;
   width: 100%;
   height: 64px;
   background: #EEF2FF;
-}
-.logo{
+} */
+/* .logo{
   position: absolute;
   width: 121px;
   height: 36px;
@@ -26,8 +26,8 @@
   line-height: 36px;
   text-align: justify;
   color: #495057;
-}
-.title{
+} */
+/* .title{
   position: absolute;
   width: 291px;
   height: 30px;
@@ -38,8 +38,8 @@
   line-height: 30px;
   text-align: justify;
   color: #495057;
-}
-.list{
+} */
+/* .list{
   width: 129px;
   padding-left: 32px;
   padding-top: 93.5px;
@@ -48,30 +48,24 @@
   line-height: 30px;
   text-align: justify; 
   color: #495057;
-}
-.body{
+} */
+/* .body{
   position: absolute;
   width: 100%;
-  height: 450px;
-}
-.headerbody{
-  width: 100%;
-  margin-top: 64px;
-  padding-top: 10px;
-  height: 64px;
-}
-.headerbody .row{
-  display: flex;
-  justify-content: space-between;
-}
-.footer{
+  height: 500px;
+} */
+  /* .headerbody{
+    width: 100%;
+    margin-top: 64px;
+  } */
+/* .footer{
   position: absolute;
   width: 100%;
   height: 60px;
-  margin-top: 684px;
+  margin-top: 597px;
   background: #E9ECEF;
-}
-.copy-right{
+} */
+/* .copy-right{
   width: 212px;
   height: 18px;
   margin-left: 565px;
@@ -81,4 +75,4 @@
   line-height: 18px;
   text-align: center;
   color: #495057;
-}
+} */
